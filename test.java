@@ -22,8 +22,6 @@ public class Store {
       } else {
         if (SellIn < 0) {  // 价值双倍下降
           assert Quality[SellIn] == Quality[SellIn+1] / 2
-        } else { // 价值下降
-          assert Quality[SellIn] < Quality[SellIn+1]
         }
       }
     }
