@@ -2,7 +2,7 @@ public class Store {
     public void __Test(String product, int SellIn){
       
       // get product quality
-      Dict Quality = self.Quality[product]
+      Map Quality = self.Quality[product]
       
       assert Quality[SellIn] <= 50
       assert Quality[SellIn] >= 0
